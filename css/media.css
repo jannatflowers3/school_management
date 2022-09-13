@@ -1,0 +1,224 @@
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .typed {
+        font-size: 16px;
+      }
+    .myslider_caption {
+        top: 103px;
+      }
+    /* .overlay {
+      height: 515px!important;
+    } */
+    .overlay img{
+        height: 515px!important;
+    }
+    .myslider_caption p {
+        font-size: 13px;
+    }
+    .myslider_caption h1 {
+        font-size: 20px;
+      padding-top: 20px;
+      padding-bottom: 4px;
+      }
+      .sliderButton {
+        right: 320px;
+        display: none;
+    }
+    .myindicator {
+        bottom: 112px !important;
+        display: block;
+        text-align: center;
+      }
+      .sliderButton {
+        display: none;
+      }
+      .header1 {
+        /* padding: 0px 6px;
+        left: -60px; */
+      }
+      
+      
+      /* slider end */
+/* site content :start */
+.site_title h5 {
+    font-size: 20px;
+}
+.site_title h5 {
+    font-size: 17px;
+    line-height: 32px;
+}
+.site_title img {
+    width: 17%;
+}
+.mycard {
+    margin-bottom: 24px !important;
+  }  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #particles-js {
+        height: 632px;
+    }
+    .overlay img {
+        height: 670px!important;
+      }
+    /* header top */
+    .header1 {
+        /* background-color: #ff5e14;
+        padding:0px 0px;
+        position: absolute; */
+        /* left: -29px; */
+      }
+      .header1 ul{
+        margin: 0;
+      }
+      .header1 i {
+        padding-right: 0;
+        font-size: 14px;
+      }
+/* .overlay {
+    min-height: 400px;
+} */
+.overlay img{
+    min-height: 400px!important;
+}
+.myslider_caption p {
+    font-size: 16px;
+}
+.myslider_caption h1 {
+    font-size: 35px;
+    padding: 20px 0px;
+  }
+.sliderButton {
+    display: none;
+}
+.myindicator {
+    bottom: 145px !important;
+    /* left: 155px; */
+    text-align: center;
+  }
+/* site content :start */
+.site_title h5 {
+    font-size: 20px;
+}
+.site_title h5 {
+    font-size: 20px;
+    line-height: 32px;
+}
+.site_title img {
+    width: 22%!important;
+}
+.site_title p {
+  line-height: 27px;
+  padding: 9px 0px;
+}
+.mycard {
+    margin-bottom: 25px;
+    padding: 20px -28px !important;
+  }
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.overlay{
+        /* min-height: 600px; */
+    }
+    .overlay img {
+        min-height: 760px!important;
+      }
+    .myslider_caption p {
+        font-size: 16px;
+    }
+    .myslider_caption h1 {
+        font-size: 39px;
+        padding: 20px 0px;
+      }
+    .sliderButton {
+        right: 320px;
+        display: block;
+          padding: 16px 32px;
+    font-size: 18px;
+    }
+     .sliderButton {
+    right: 184px;
+    display: block;
+  }
+    .myindicator {
+        bottom: 86px !important
+      }
+/* site content :start */
+.site_title h5 {
+    font-size: 20px;
+}
+.site_title h5 {
+    font-size: 17px;
+    line-height: 32px;
+}
+.site_title img {
+    width: 43%!important;
+}
+.mycard{
+    padding:0px!important;
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header1 {
+        /* padding: 0px 7px; */
+    }
+    .myslider_caption p {
+        font-size: 17px;
+    }
+    .myslider_caption h1 {
+        font-size: 50px;
+    }
+    .sliderButton {
+        right: 275px;
+    }
+    .myindicator {
+        bottom: 15px;
+      }
+/* site content :start */
+.site_title h5 {
+    font-size: 20px;
+}
+.site_title p {
+    line-height: 24px;
+    padding: 4px 0px;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* .overlay img {
+        height: 569px;
+      } */
+    .header1 {
+        /* padding: 0px 7px; */
+    }
+    .myslider_caption h1 {
+        font-size: 60px;
+    }
+    .sliderButton {
+        right: 373px;
+    }
+    .myindicator {
+        bottom: 85px!important;
+      }
+      .site_title img {
+        width: 33%!important;
+    }
+    .mycard{
+        padding:40px 0px!important;
+    }
+    
+
+} 

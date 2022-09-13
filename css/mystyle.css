@@ -1,0 +1,262 @@
+
+body{
+
+    font-family: "Roboto", sans-serif;
+}
+ h4, h5{
+  font-family: 'Bubblegum Sans', cursive;
+}
+.mymenu{
+
+}
+.mymenu li a{
+    font-size: 17px;
+font-weight: 600;
+color:#ffc000;
+text-transform: capitalize;
+line-height: 36px;
+}
+.header_mybtnn{
+    background-color: #92278f;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 7px 23px;
+}
+.header_mybtnn:hover{
+    background-color: #f2b90b;
+color: #ffff;
+
+}
+.content_banner{
+    color: #ffff;
+    background-image: url(../images/banner_01.jpg);
+    min-height: 640px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding-top: 190px;
+
+}
+.content_banner:before{
+ content: '';
+ position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color:rgba(0, 0, 0, .2);
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+.first_content1{
+font-weight: 800;
+line-height: 1.2;
+font-size: 30px;
+position: relative;
+z-index: 2;
+margin: 0px 0px 12px;
+}
+.first_content2{
+font-size: 60px;
+font-weight: 900;
+margin: 6px 0px;
+line-height: 150%;
+position: relative;
+z-index: 2;
+ }
+.banner_desc{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 0px 56px;
+    letter-spacing: 0;
+    z-index: 2;
+    position: relative;
+}
+.banner_btn{
+    z-index: 1;
+    margin: 30px auto 25px;
+    position: relative;
+    font-size: 16px;
+font-weight: 700;
+transition: 0.03s;
+font-style: italic;
+background-color: #92278f;
+border-radius: 5px;
+padding: 15px 30px;
+text-decoration: none;
+color:#ffff;
+}
+.banner_btn:hover{
+background-color: #f2b90b;
+color: #ffff;
+border-radius: 5px;
+}
+.header{
+position: relative;
+width: 100%;
+}
+.header_inner{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 99;
+}
+.header_scroll{
+    background-color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.4);
+transition-duration: 0.6s;
+}
+.padding {
+  padding: 80px 0px 50px;
+}
+.welcome{
+  min-height: 400px;
+background-color:#fff8eb;
+}
+.welcome_title{
+  margin: 50px 0px 90px;
+}
+.welcome_title h5{
+  color: #92278f;
+  font-size: 22px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.welcome_title h3{
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+  color: #0e2c53;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.mycard{
+  padding: 30px 0px;
+  border: none;
+}
+.mycard:hover{
+  box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 20%);
+}
+.mycard img{
+  width: 30%;
+  text-align: center;
+  margin: 25px auto;
+}
+.mycard h2{
+color: #0e2c53;
+font-size: 25px;
+}
+.mycard h5{
+  margin-bottom: 16px;
+  color: #8dc63f;
+  font-size: 20px;
+}
+/* about start */
+.about{
+background-color: #fff8eb;
+}
+/* .abou_left{
+  
+
+}
+
+.about_right{
+
+}
+.about_right{
+
+}
+.about_right h4{
+
+} */
+.about_right h2{
+  font-size: 35px;
+  color: #0e2c53;
+  font-family: "Roboto", sans-serif;
+  margin: 16px 0px;
+  font-weight: 700;
+}
+/* .about_right p{
+
+}
+.about_bottom{
+
+}
+.about_li_logo{
+
+}
+.about_li_logo span{
+
+} */
+.about_li_logo {
+  margin-bottom: 45px;
+}
+.about_li_logo li img{
+  width: 4%;
+  margin-right: 20px
+}
+.about_li_logo li{
+  list-style-type: none;
+  padding: 7px 0px;
+}
+.str1{
+color: #8dc63f;
+}
+.str2{
+  color: #92278f;
+}
+.str3{
+color: #ff5200;
+}
+.str4{
+color: #00bfff;
+}
+
+/*
+  Footer Bottom Area Style
+  ======================================================*/
+  .footer-bottom-area {
+	background-color: #040f28;
+	border-top: 1px solid #ff5e14;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+  .footer-bottom-area p {
+	color: #fff;
+  }
+  .footer-bottom-area p a {
+color: #ff5e14;
+  }
+  .footer-bottom-area p i {
+	position: relative;
+	top: 1px;
+  }
+  .footer-bottom-area .footer-bottom-menu {
+	float: right;
+  }
+  .footer-bottom-area .footer-bottom-menu li {
+	display: inline-block;
+	margin-right: 15px;
+  }
+  .footer-bottom-area .footer-bottom-menu li:last-child {
+	margin-right: 0;
+  }
+  .footer-bottom-area .footer-bottom-menu li a {
+	color: #fff;
+	text-decoration: none;
+  }
+
+  .footer-bottom-area .footer-bottom-menu li a:hover {
+	color: #ff5e14;
+  }
+  
+  /*
